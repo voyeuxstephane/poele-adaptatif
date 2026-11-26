@@ -1,0 +1,19 @@
+{
+  "after_dependencies": [
+    "recorder"
+  ],
+  "codeowners": [
+    "@voyeuxstephane"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "calendar"
+  ],
+  "documentation": "https://github.com/voyeuxstephane/poele-adaptatif",
+  "domain": "poele_adaptatif",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/voyeuxstephane/poele-adaptatif/issues",
+  "name": "Poêle adaptatif",
+  "requirements": [],
+  "version": "0.3.1"
+}

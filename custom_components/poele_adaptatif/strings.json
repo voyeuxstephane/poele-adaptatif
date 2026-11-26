@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Poêle adaptatif",
+        "description": "Choisis les entités du poêle (intégration Rika Firenet) et la sonde de température de référence.",
+        "data": {
+          "climate_entity": "Thermostat du poêle",
+          "on_off_switch": "Interrupteur marche / arrêt",
+          "heating_times_switch": "Interrupteur des plages horaires Rika",
+          "power_number": "Puissance (Auto / Manuel)",
+          "status_sensor": "Statut du poêle",
+          "pellets_sensor": "Pellets avant entretien",
+          "room_temperature_sensor": "Température de référence (salon)",
+          "outdoor_temperature_sensor": "Température extérieure",
+          "main_state_sensor": "État principal du poêle (1 à 6)",
+          "fan_sensor": "Vitesse du ventilateur",
+          "feed_sensor": "Vis d'alimentation (‰)"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Une seule instance de l'intégration est possible."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Entités utilisées",
+        "data": {
+          "climate_entity": "Thermostat du poêle",
+          "on_off_switch": "Interrupteur marche / arrêt",
+          "heating_times_switch": "Interrupteur des plages horaires Rika",
+          "power_number": "Puissance (Auto / Manuel)",
+          "status_sensor": "Statut du poêle",
+          "pellets_sensor": "Pellets avant entretien",
+          "room_temperature_sensor": "Température de référence (salon)",
+          "outdoor_temperature_sensor": "Température extérieure",
+          "main_state_sensor": "État principal du poêle (1 à 6)",
+          "fan_sensor": "Vitesse du ventilateur",
+          "feed_sensor": "Vis d'alimentation (‰)"
+        }
+      }
+    }
+  }
+}
